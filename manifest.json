@@ -1,8 +1,8 @@
 {
     "name": "fluffychat-web.chromiumos-guy",
-    "description": "Fluffychat matrix client",
+    "description": "Fluffychat Web, now on UT, locally.",
     "architecture": "@CLICK_ARCH@",
-    "title": "Fluffychat Web, now on UT, locally.",
+    "title": "Fluffychat matrix client",
     "hooks": {
         "fluffychat-ut-wrapper": {
             "apparmor": "fluffychat-web.apparmor",
