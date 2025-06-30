@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Fluffychat Web
+Exec=launch.sh $@
+Icon=Icon-512.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true
