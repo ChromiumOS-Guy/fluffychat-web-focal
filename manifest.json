@@ -1,6 +1,6 @@
 {
     "name": "fluffychat-web.chromiumos-guy",
-    "description": "Fluffychat Web, now on UT, locally.",
+    "description": "Fluffychat Web: A web app, served directly from your Ubuntu Touch device.",
     "architecture": "@CLICK_ARCH@",
     "title": "Fluffychat matrix client",
     "hooks": {
