@@ -18,6 +18,7 @@ echo "--->logging at " + `/bin/date +"%Y-%m-%d_%H-%M-%S"` >> $LOG_FILE
 echo "--->managing files" >> $LOG_FILE
 /bin/cp $ROOT/* $BUILD_DIR 2>/dev/null >> $LOG_FILE
 /bin/cp $BUILD_DIR/* $INSTALL_DIR 2>/dev/null >> $LOG_FILE # copying leftovers
+/bin/chmod +x $INSTALL_DIR/launch.sh # make it ultra clear that this is an executable.
 
 
 ## scripts
