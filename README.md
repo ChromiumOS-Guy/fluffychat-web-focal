@@ -1,6 +1,7 @@
 # Fluffychat Web for Ubuntu Touch (Focal)
 
 This repository contains the latest version of Fluffychat Web that is compatible with **Ubuntu Touch Focal (using QtWebEngine)**, packaged as a Click application.
+
 This won't see much active maintenance, as I plan to ditch this approcach for native fluffychat on Noble when it releases, instead of the local web server approcach I am using now.
 
 ## Overview
