@@ -6,6 +6,8 @@ This repository contains the latest version of Fluffychat Web that is compatible
 
 This specific build offers a functional **Fluffychat Web** experience on Ubuntu Touch devices running the Focal release. It is critical to understand that **newer versions of Fluffychat Web FAIL to run** on the QtWebEngine used in Ubuntu Touch Focal. Consequently, this package provides the **latest available release of Fluffychat Web** that manages to function within this environment.
 
+Please be aware that performance may vary significantly depending on your device's hardware. While the application aims to be functional, users with older or lower-end Ubuntu Touch devices may experience **poor performance, including slow loading times and general sluggishness**.
+
 ## Known Limitations
 
 While this version offers core functionality, please be aware of the following known issues:
