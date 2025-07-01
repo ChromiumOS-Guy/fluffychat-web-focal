@@ -7,7 +7,8 @@ case $ARCH in # make sure its the format i want while logging
   *) echo "Error: Unknown architecture ${ARCH}" && exit 1 ;;
 esac
 
-latest_tag=`curl -s https://api.github.com/repos/svenstaro/miniserve/releases/latest | jq -r '.tag_name'` # returns tag
+#latest_tag=`curl -s https://api.github.com/repos/svenstaro/miniserve/releases/latest | jq -r '.tag_name'` # returns tag
+latest_tag="v0.31.0" # to maintain compatiblity as this ages.
 latest_tag_without_v=$(echo "$latest_tag" | sed 's/^v//')
 
 URL="https://github.com/svenstaro/miniserve/releases/download/$latest_tag/miniserve-$latest_tag_without_v-$ARCH-unknown-linux-gnu"
